@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+:focus-visible{outline:2px solid #1257e8;outline-offset:2px}
+.inp{@apply w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-ink}
+.btn{@apply inline-flex items-center justify-center rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-ink disabled:opacity-50}
+.btn2{@apply inline-flex items-center justify-center rounded-full border border-ink px-5 py-2.5 text-sm font-semibold text-ink transition hover:bg-ink hover:text-white}
